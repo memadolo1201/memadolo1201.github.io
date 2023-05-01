@@ -1,0 +1,123 @@
+
+
+/* ====================== [ Custom restaurant Styles  ] ====================== */
+
+.sec-box-left{
+    position: relative;
+    
+    .back-box{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 80px;
+    }
+}
+
+.sec-box-right{
+    position: relative;
+    
+    .back-box{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 80px;
+    }
+}
+
+.main-marq .box .item h4{
+    font-size: 4vw;
+    color: transparent;
+    -webkit-text-stroke: .2px #fff !important;
+}
+
+.bg-pattern2{
+    background-size: 100px;
+    background-repeat: repeat;
+}
+
+/* ------------ Header Section ------------ */
+
+.home-arch .parallax-slider .swiper-slide{
+    min-height: calc(100vh - 80px);
+    margin-top: 80px
+}
+
+/* ------------ intro Section ------------ */
+
+.intro-box{
+
+    .vid-show{
+        position: absolute;
+        top: 50% !important;
+        right: 50% !important;
+        transform: translateX(50%) translateY(-50%);
+        z-index: 3;
+
+        &:after{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #191b1d;
+            z-index: -1;
+        }
+    }
+
+    .img{
+        position: relative;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .img1{
+            width: 55%;
+            height: 600px;
+            padding-right: 30px;
+        }
+
+        .img02{
+            width: 45%;
+
+            .img2{
+                height: 320px;
+            }
+
+            .img3{
+                margin-top: 30px;
+                height: 200px;
+                width: 90%;
+            }
+        }
+    }
+}
+
+/* ------------ Portfolio Section ------------ */
+
+
+
+/* ------------ Resume ------------ */
+
+
+
+/* ------------ Testmonials ------------ */
+
+
+
+/* ------------ Contact Form ------------ */
+
+
+
+
+// responsive
+@import "../../assets/scss/variables";
+@import "../../assets/scss/responsive";
+
